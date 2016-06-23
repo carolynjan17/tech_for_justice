@@ -1,0 +1,68 @@
+﻿<!DOCTYPE html>
+<html>
+         <head>
+    
+            <link rel="stylesheet" type="text/css" href="tech4justice.css">
+         </head>
+         <body>
+
+                        
+
+        <div style="padding-top: -20px;" class="pageheader">
+            <p class="textfont">TECH FOR JUSTICE</p> 
+        </div>
+
+        <div class="headerborder"></div>
+	     
+        <div  class="textfont">
+             <nav id="nav01"></nav>
+        </div>    
+
+       <div class="textfont instructional paratext" >
+            <p> <iframe width="300" height="150"  style="float:left;"
+                src="https://www.youtube.com/embed/jcEu8e9QtZ4" frameborder="0" allowfullscreen>
+                 </iframe><br><br><br><br><br><br><br><br>
+             </p>
+             <p> <span class="highlighted-text">The above video gives instructions on filling in the case(s) information. You can add more than one case. When you finished inputting the data click on the "Add Case buttton.</span><br><br>
+                    <span class="highlighted-text">1. Docket ID: </span>Enter the docket number for the case you are trying to expunge (cover/seal).<br><br>
+                    <span class="highlighted-text">2. Charged With: </span>Write what  the police said you did. Do not try to argue that what they said was wrong. Simply write what they said you did.<br><br>
+                    <span class="highlighted-text">3. Police Description: </span>Again, just write what the police said you did.<br><br>
+                    <span class="highlighted-text">4. Case Conclusion: </span>Write a sentence how the case ended.<br><br>
+                    <span class="highlighted-text">5. Case Pending: </span>You should select <span style="font-weight: bold;"> "No"</span>. If the case is still pending and it is not a minor case then <span style="font-weight: bold;">stop! You cannot submit this document until you have no cases pending.</span> <br><br>
+                    <span class="highlighted-text">6. End Date: </span>Enter the date case was closed<br><br>
+                    <span class="highlighted-text">7. </span>Click  on the "Add Case" button to add more cases.<br><br>
+            </p>
+        </div>                
+
+         <div class="textfont doc-container paratext" >
+             <p> <span style="font-weight: bold; font-size: 20px;">Case(s) Information</span><br><br><br>
+                   <form>
+                      <span style="font-weight: bold;">Docket ID:  </span> 
+                     <input type="text" name="docket-id" value="16-12345"><br><br><br> 
+                    <span style="font-weight: bold;">Charged With:  </span> 
+                    <input type="text" name="charged-with" maxlength="30" value="Burglary - B & E"><br><br><br>
+                    <span style="font-weight: bold;">Police Description of Alleged Crime: </span><br><br>
+                    <textarea style="height: 100px; width:300px;">Mr. Public was arrested for a series of burglaries in the Very Nice neighborhood of Washington, DC. One Daisy Citizen was home during one of the break-ins. Ms. Citizen was able to contact the police where upon Mr. Public was arrested.</textarea><br><br><br>
+                    <span style="font-weight: bold;">Case Conclusion:  </span> 
+                    <input type="text" name="case-conclusion" maxlength="30" value="Mr. Public served 7 years in jail"><br><br><br> 
+                    <span style="font-weight: bold;">Is this case pending?:  </span> 
+                   <input type="radio" name="case-pending" value="No" checked> No
+                    <input type="radio" name="case-pending" value="Yes"> Yes<br><br><br> 
+                     <span style="font-weight: bold;">Case End Date:  </span> 
+                    <input type="text" name="end-date" maxlength="15" value="06/15/2015"><br><br><br>
+                     <input type="button" value="Add Case"><br><br><br><br>
+                    <input type="RADIO" name="button" value="^button1^" data-href="Personalinfo.html">
+                   <input type="RADIO" name="button" value="^button2^" data-href="caseinfo.html" checked>
+                   <input type="RADIO" name="button" value="^button3^" data-href="reasons.html">
+                   <input type="RADIO" name="button" value="^button4^" data-href="howchanged.html">
+                   <input type="RADIO" name="button" value="^button5^" data-href="references.html">
+                   <input type="RADIO" name="button" value="^button6^" data-href="addedinfo.html">
+                   <input type="button" value="Show Document">
+                 </form>          
+            </p>
+        </div>     
+        
+        <script src="tech4justice-expungenav.js"></script>
+
+    </body>
+</html>
