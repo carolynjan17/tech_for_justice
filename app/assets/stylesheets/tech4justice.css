@@ -28,8 +28,8 @@ background-color: #f2f5ff;
 }
 
 input[type=button] {
-    width: 100px;
-    height: 25px;
+    width: 150px;
+    height: 30px;
     background-color: #1b2845;
     color: #ff6600;
     font-weight: bold;
@@ -48,6 +48,22 @@ textarea {
     border-radius: 4px;
     resize: none;
 }
+.instructional {
+  width:25%;
+  border-right: solid;
+  border-right-color: #848fa5;
+  float: left;
+}
+
+.highlighted-text {
+    color: #ff6600;
+    font-weight: bold;
+}
+
+.doc-container {
+  width:73%;
+  float: right;
+}
 
 ul#menu {
    list-style-type: none;
@@ -61,8 +77,7 @@ ul#menu {
 
 ul#menu li {
     display: inline;
-     margin: 0px 10px; 
-  
+     margin: 0px 15px;   
 }
 
 ul#menu li a {
@@ -79,11 +94,6 @@ ul#menu li a:hover {
     background-color: #5899e2;
 }
 
-li.active a {
-    background-color: #1b2845;
-    color: #ff6600;
-    font-weight: bold;
-}
 
 
 
